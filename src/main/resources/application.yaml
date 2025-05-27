@@ -1,0 +1,9 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id:  #<client-id you can get it from github>
+            client-secret:  #<client-secret you can get it from github>
+            scope:  #<mention the scope, for security reasons allow only your personal mail id for now>
